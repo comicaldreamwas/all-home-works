@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table width="700px" height="350px" style="text-align: center" border="1">
+      <thead>
+        <tr>
+          <th style="background-color: blue" colspan="4">MY FIRST TABLE</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="background-color: blue">First cell</td>
+          <td style="background-color: blue">second cell</td>
+          <td style="background-color: yellow" rowspan="3" colspan="2">
+            6 cell merged together
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: yellow" colspan="2">
+            2 cell merged into one
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: yellow">1 cell 3rd row</td>
+          <td style="background-color: yellow">2nd cell 3rd row</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td style="background-color: yellow" colspan="6">
+            do you like tables?
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
